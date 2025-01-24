@@ -170,11 +170,9 @@ To understand how the Linux kernel handles block-level operations, especially in
 Here’s a simple visual representation of how **512-byte**, **512e**, and **4K blocks** work:
 
 ```
-+------------------+        +------------------+        +-----------------------+
++------------------+        +---------------------+      +-----------------------+
 | 512-byte block   |        | 512e (4K emulation) |      | 4K (Native) block     |
-+------------------+        +----------------
-
---+        +-----------------------+
++------------------+        +---------------------+      +-----------------------+
 | Data: 512 bytes  |        | 8 x 512-byte blocks |      | Data: 4096 bytes      |
 +------------------+        | 4096 bytes (4K)     |      +-----------------------+
 ```
