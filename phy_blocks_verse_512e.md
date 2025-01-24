@@ -1,4 +1,4 @@
-# Information about physical blocks verse 512e (512-byte emulation)
+# Information about physical blocks verses 512e (512-byte emulation)
 
 ## When it comes to hard drives and storage devices, **physical blocks** and **512e (512-byte emulation)** refer to different ways of handling data storage at the sector level.
 Let’s break them down:
